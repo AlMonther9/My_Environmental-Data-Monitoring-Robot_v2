@@ -1,4 +1,72 @@
-# Getting Started with Create React App
+# Environmental Monitoring System
+
+This project is a React application for an environmental monitoring system. It displays sensor readings and charts for various environmental data. The app is structured as follows:
+
+## Project Structure
+
+```
+env-monitor-app/
+├── node_modules/
+├── public/
+├── src/
+├── .gitignore
+├── package.json
+├── README.md
+└── yarn.lock or package-lock.json
+```
+
+- **node_modules/**: Contains the project's dependencies.
+- **public/**: Contains the public assets for the app.
+- **src/**: Contains the main application code.
+- **.gitignore**: Specifies which files and directories to ignore in version control.
+- **package.json**: Manages project dependencies and scripts.
+- **README.md**: Contains information about the project.
+- **yarn.lock or package-lock.json**: Lock file for dependency versions.
+
+## Source Directory
+
+```
+src/
+├── components/
+│   ├── SensorReadings.js
+│   └── SensorChart.js
+├── App.js
+├── App.css
+├── index.js
+└── serviceWorker.js
+```
+
+- **components/**: Contains React components for sensor readings and charts.
+- **App.js**: Main component for the application.
+- **App.css**: Styles for the App component.
+- **index.js**: Entry point for the React application.
+- **serviceWorker.js**: Service worker for offline capabilities.
+
+## Running the Application
+
+1. Install dependencies: `npm install` or `yarn install`
+2. Start the development server: `npm start` or `yarn start`
+3. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+## Features
+
+- Displays sensor readings from environmental sensors.
+- Shows a chart of sensor data over time.
+- Responsive design for mobile and desktop.
+
+## Technologies Used
+
+- React
+- Axios for HTTP requests
+- Recharts for data visualization
+- Styled-components for styling
+
+## Author
+
+[AlMonther Abdulhafeez]
+
+---
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
