@@ -53,7 +53,7 @@ src/
 - Displays sensor readings from environmental sensors.
 - Shows a chart of sensor data over time.
 - Responsive design for mobile and desktop.
-
+![Screenshot 2024-05-26 211250](https://github.com/AlMonther9/My_Environmental-Data-Monitoring-Robot_v2/assets/139255318/97cf2c25-3a9d-4473-8f17-7d6679d23532)
 ## Technologies Used
 
 - React
@@ -136,3 +136,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
